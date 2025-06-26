@@ -14,7 +14,13 @@ document.getElementById("subtrairSOULimeira").onclick = function()
         request.onsuccess = (event) =>
         {
             empresa = request.result;
-            empresa.passagem.saldo = Math.max(empresa.passagem.saldo - empresa.passagem.valorUnit);
+            
+            if(empresa.passagem.saldo < empresa.passagem.valorUnit)
+            {
+                window.alert("Não há saldo sufuciente para ser debitado");
+                return;
+            }
+            else empresa.passagem.saldo = Math.max(empresa.passagem.saldo - empresa.passagem.valorUnit);
 
             const uptadeRequest = store.put(empresa);
             uptadeRequest.onsuccess = (event) => 
@@ -39,7 +45,13 @@ document.getElementById("subtrairSOUAmericana").onclick = function()
         request.onsuccess = (event) =>
         {
             empresa = request.result;
-            empresa.passagem.saldo = Math.max(empresa.passagem.saldo - empresa.passagem.valorUnit);
+            
+            if(empresa.passagem.saldo < empresa.passagem.valorUnit)
+            {
+                window.alert("Não há saldo sufuciente para ser debitado");
+                return;
+            }
+            else empresa.passagem.saldo = Math.max(empresa.passagem.saldo - empresa.passagem.valorUnit);
 
             const uptadeRequest = store.put(empresa);
             uptadeRequest.onsuccess = (event) => 
@@ -64,7 +76,13 @@ document.getElementById("subtrairPiracicabana").onclick = function()
         request.onsuccess = (event) =>
         {
             empresa = request.result;
-            empresa.passagem.saldo = Math.max(empresa.passagem.saldo - empresa.passagem.valorUnit);
+            
+            if(empresa.passagem.saldo < empresa.passagem.valorUnit)
+            {
+                window.alert("Não há saldo sufuciente para ser debitado");
+                return;
+            }
+            else empresa.passagem.saldo = Math.max(empresa.passagem.saldo - empresa.passagem.valorUnit);
 
             const uptadeRequest = store.put(empresa);
             uptadeRequest.onsuccess = (event) => 
