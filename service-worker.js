@@ -1,7 +1,7 @@
 const CACHE_NAME = 'grape-cache-v1';
 const urlsToCache = [
   '/',
-  '/Pagina-inicial.html',
+  '/index.html',
   '/Página para edição de valores.html',
   '/Página inicial.css',
   '/Página para edição de valores.css',
