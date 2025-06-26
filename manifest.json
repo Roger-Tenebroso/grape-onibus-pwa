@@ -1,7 +1,7 @@
 {
   "name": "Grape Ônibus",
   "short_name": "Grape",
-  "start_url": "Pagina-inicial.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#2A1637",
   "theme_color": "#8F53AF",
