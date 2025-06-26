@@ -1,0 +1,220 @@
+@font-face 
+{
+  font-family: 'Sen';
+  src: url('Fontes/static/Sen-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px;
+}
+body h4
+{
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+}
+header
+{
+    text-align: center;
+}
+header h4
+{
+    margin: 0px;
+    color: white;
+       
+}
+header #cabecalho
+{
+    background-color: #2A1637;
+    height: 215px;
+}
+header #parteDeCima
+{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+}
+header #diasRestantes
+{
+    position: relative;
+    top: 15px;
+}
+header #diaHora
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+header #itensDiaHora
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 310px;
+    height: 50px;
+
+}
+header .itensDiaHoraFormat
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #8F53AF;
+    box-shadow: 2px 2px 3px #C1C1C1;
+}
+header #diaTamanho
+{
+    height: 45px;
+    width: 165px;
+}
+header #iconeCalendario
+{
+    position: relative;
+    right: 5px;
+}
+header #iconeRelogio
+{
+    position: relative;
+    right: 5px;
+}
+header #horaTamanho
+{
+    height: 45px;
+    width: 100px;
+}
+main #saldoContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 51px;
+}
+main #saldoItem
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px #C1C1C1;
+    height: 50px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main #saldo
+{
+    margin-left: 25px;
+}
+main #onibusContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 300px;
+}
+main #onibusItens
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main .dadosOnibus
+{
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px #C1C1C1;
+    background-color: #EEEEEE;
+    height: 300px;
+    width: 115px;
+}
+main .status
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 5px;
+    background-color:#8F53AF;
+}
+main .dadosContainer
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 95px; 
+}
+main .saldosContainer
+{
+    display: flex;
+    justify-content: center;
+}
+main .exibirSaldos
+{
+    width: 100%;
+    text-align: center;
+
+}
+main .subtrairBotoes
+{
+    display: flex;
+    justify-content: center;
+    width: 95px;
+    padding: 10px;
+    color: white;
+    background-color:#8F53AF;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.2s;
+    -webkit-tap-highlight-color: transparent;
+}
+main .subtrairBotoes:active
+{
+    background-color:#da96ff;
+}
+main #viagensContainer
+{
+    height: 70px;
+}
+main #viagensItens
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+}
+main .viagenShow
+{
+    border-radius: 15px;
+    height: 100%; 
+    box-shadow: 2px 2px 3px #C1C1C1;
+    background-color: #EEEEEE; 
+    width: 115px;
+}
+footer button
+{
+    background-color: #2A1637;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 173px;
+    height: 55px;
+    transition: background-color 0.2s;
+    -webkit-tap-highlight-color: transparent;
+}
+footer button:active
+{
+    background-color: #49275f;
+}

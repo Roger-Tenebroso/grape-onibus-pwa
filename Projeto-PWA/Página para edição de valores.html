@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Página para edição de valores.css">
+    <title>Grape Ônibus</title>
+</head>
+<body>
+    <header>
+        <div id="containerCabecalho">
+            <a href="Pagina-inicial.html">
+                <img src="Icones/IconeVoltar.svg" alt="icone de voltar" id="imagemVoltar">
+            </a>
+        </div>
+        <h4>Alterar Valores</h4>
+    </header>
+    <main>
+        <br>
+        <br>
+        <h4 class="empresaNome">Sou Limeira</h4>
+        <button id="btnInstall" style="display:none; position: fixed; bottom: 20px; right: 20px; padding: 12px 20px; font-size: 16px; background-color:#8F53AF; color:white; border:none; border-radius: 6px; cursor:pointer; z-index:9999;">
+  Instalar App
+</button>
+
+        <br>
+        <div class="dadosContainer">
+            <div class="empresas">
+                <div class="imagens">
+                    <img src="Icones/Sou Limeira Icone.svg" alt="Icone Sou Limeira" style="height: 90px;">
+                </div>
+                <div class="dados">
+                    <div class="dadosBloco">
+                        <div style="display: flex; justify-content: center; width: 100%;">
+                            <input type="number" class="novoSaldo" placeholder="Digite o novo saldo" id="saldoSOULimeira" min="0">
+                        </div>
+                        <br>
+                        <br>
+                        <div style="display: flex; justify-content: center; width: 100%;">
+                            <button class="salvarValor" id="botaoSOULimeira">Salvar Valor</button>
+                        </div>
+                    </div>
+                      
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h4 class="empresaNome">Sou Americana</h4>
+        <br>
+        <div class="dadosContainer">
+            <div class="empresas">
+                <div class="imagens">
+                    <img src="Icones/Sou Americana Icone.svg" alt="Icone Sou Americana" style="height: 90px;">
+                </div>
+                <div class="dados">
+                    <div class="dadosBloco">
+                        <div style="display: flex; justify-content: center; width: 100%;">
+                            <input type="number" class="novoSaldo" placeholder="Digite o novo saldo" id="saldoSOUAmericana" min="0">
+                        </div>
+                        <br>
+                        <br>
+                        <div style="display: flex; justify-content: center; width: 100%;">
+                            <button class="salvarValor" id="botaoSOUAmericana">Salvar Valor</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h4 class="empresaNome">Piracicabana</h4>
+        <br>
+        <div class="dadosContainer">
+            <div class="empresas">
+                <div class="imagens">
+                    <img src="Icones/Piracicabana Icone.svg" alt="Icone Piracicabana" style="height: 90px;">
+                </div>
+                <div class="dados">
+                    <div class="dadosBloco">
+                        <div style="display: flex; justify-content: center; width: 100%;">
+                            <input type="number" class="novoSaldo" placeholder="Digite o novo saldo" id="saldoPiracicabana" min="0">
+                        </div>
+                        <br>
+                        <br>
+                        <div style="display: flex; justify-content: center; width: 100%;">
+                            <button class="salvarValor" id="botaoPiracicabana">Salvar Valor</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <script src="Página para edição de valores.js"></script>
+</body>
+</html>
